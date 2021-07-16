@@ -1,20 +1,26 @@
-import { Card } from 'react-bootstrap';
+import React from 'react';
+import "./Menu.css";
+import { Card, Row, Col } from 'react-bootstrap';
 
-function Menu() {
+const Menu = (props) => {
     return (
         <div className="Menu">
-            <Card>
-                <Card.Img variant="top" src="holder.js/100px160" />
-                <Card.Body>
-                    <Card.Title>Card title</Card.Title>
-                    <Card.Text>
-                        This is a wider card with supporting text below as a natural lead-in to
-                        additional content. This content is a little bit longer.
-                    </Card.Text>
-                </Card.Body>
-            </Card>
+            <Row xs={1} sm={2} md={3} lg={4} xl={6} className="g-4">
+                <Col>
+                    <Card>
+                        <Card.Img variant="top" src={props.menuIMG} />
+                        <Card.Body>
+                            <Card.Title>{props.menuName}</Card.Title>
+                            <span className="price">{props.productPrice}</span>
+                            <Card.Text>
+                                <p>{props.menuRecipe}</p>
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
+            </Row>
         </div>
-    );
+    )
 }
 
 export default Menu;
