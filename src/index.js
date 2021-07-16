@@ -3,11 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Navbar from './components/Navbar';
 import Menu from './components/Menu';
-import { Card } from 'react-bootstrap';
 
 const App = () => {
   return (
-    <div>
+    
       <div className="card-group">
         <Menu
           productID="1"
@@ -26,7 +25,7 @@ const App = () => {
         <Menu
           productID="3"
           menuIMG="./assets/item-3.jpg"
-          menuName="Nudeln"
+          menuName="Pasta"
           productPrice="7 $"
           menuRecipe="The recipe offers a great combination of pasta and vegetables. The noodles in paprika sauce taste spicy and juicy."
         />
@@ -38,7 +37,7 @@ const App = () => {
           menuRecipe="We get orange juice delivered to our door with the milk,on Mondays, Wednesdays and Fridays. We get one pint of milk one carton of orange juice."
         />
       </div>
-    </div>
+   
   );
 };
 
@@ -48,8 +47,8 @@ const App = () => {
 ReactDOM.render(
   <React.StrictMode>
     <Navbar />
-    <Menu />
     <App />
+    <Menu />   
   </React.StrictMode>,
   document.getElementById('root')
 );
