@@ -1,20 +1,17 @@
-.Menu{
-padding: 2%;
-}
-
-.cards {
+.Menu {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  padding: 2% 2%;
 }
 
 .card {
   margin: 40px;
   position: relative;
-  width: 250px;
-  height: 350px;
-  box-shadow: 0 40px 60px -6px black;
+  width: 450px;
+  height: 450px;
+  box-shadow: 0 40px 60px -6px rgb(179, 174, 174);
 }
 
 .card-title {
