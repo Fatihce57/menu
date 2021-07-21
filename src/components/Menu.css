@@ -55,8 +55,8 @@
   top: 0;
   opacity: 0;
   padding: 18px 8%;
-  background-color: rgb(203, 230, 228);
-  overflow-y: scroll;
+  background-color: rgb(67, 172, 165);
+  overflow-inline: scroll;
   transition: 0.8s ease;
 }
 
