@@ -1,11 +1,22 @@
 import "./Navbar.css";
+import CardData from "./Card.json";
+import {useState} from "react";
 
 function Navbar() {
+
+
+const handleBreakfast=()=>{
+  
+
+}
+
+
   return (
     <div className="Navbar">
      <h1 className="nav-header">OUR MENU</h1>
       <nav className="nav-list">
-        <li>Breakfast</li>
+        <li>All</li>
+        <li onClick={handleBreakfast}>Breakfast</li>
         <li>Lunch</li>
         <li>Drinks</li>
         <li>Specials</li>
