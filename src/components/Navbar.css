@@ -1,34 +1,32 @@
 .Navbar {
-    position: sticky;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    height: 100%;
-    z-index: 1;
-    background-color: black;
-  }
-  
-
-.nav-header{
-   
-    font-size: 2.8rem;
-    color: red;
-    margin: 40px 0 20px 0;
-    text-align: center;
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 100%;
+  z-index: 1;
+  background-color: black;
 }
 
-.nav-list{
-    list-style: none;
-    text-align: center;
+.nav-header {
+  font-size: 2.8rem;
+  color: red;
+  margin: 40px 0 20px 0;
+  text-align: center;
 }
 
-nav li{
-    display: inline;
-    margin: 3%;
-    color: red;
+.nav-list {
+  list-style: none;
+  text-align: center;
 }
 
-nav li:hover{
-    color: rgb(255, 255, 255);
-    cursor: pointer;
+nav li {
+  display: inline;
+  margin: 3%;
+  color: red;
+}
+
+nav li:hover {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
 }
