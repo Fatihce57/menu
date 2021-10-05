@@ -4,9 +4,6 @@ import './index.css';
 import Navbar from './components/Navbar';
 import Menu from './components/Menu';
 
-
-
-
 ReactDOM.render(
   <React.StrictMode>
     <Navbar />
